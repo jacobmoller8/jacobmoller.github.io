@@ -1,0 +1,18 @@
+.row{
+    margin: 0px;
+}
+
+#signInContainer {
+    margin-top: 10vh;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#registerText { 
+    margin-top: 50px;
+}
+
+#logInBtnContainer{
+	display: inline-block;
+}

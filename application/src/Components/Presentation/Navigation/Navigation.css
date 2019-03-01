@@ -1,0 +1,44 @@
+.row{
+    margin: 0;
+}
+
+.navBar{
+    top: 50px;
+		position: relative;
+		text-align: center;
+}
+
+.navRow{
+	height:150px;
+	margin-bottom: 20px;
+}
+
+.icon{
+    height: 6vw;
+    width: 6vw;
+    max-width: 60px;
+    max-height: 60px;
+    min-width: 35px;
+    min-height: 35px;
+}
+
+.roundBtn{
+    width: 12vw;
+    height: 12vw;
+    max-width: 100px;
+    max-height: 100px;
+    min-width: 60px;
+    min-height: 60px;
+    background-color: rgb(249, 145, 34);
+    border-radius: 50%;
+		border-color: rgb(249, 145, 34);
+		box-shadow: 1px 1px 4px 2px #ccc;
+}
+
+.roundBtn:hover{
+    border-color: rgb(255, 214, 169);
+    background-color: rgb(255, 214, 169);
+    transform: scale(1.25, 1.25);
+		transition: all .2s ease;
+
+}
